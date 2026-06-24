@@ -54,25 +54,17 @@ export const SERVICES = [
   },
 ];
 
-import hero1 from "@/assets/bts-page-1.jpg.asset.json";
-import img5 from "@/assets/bts-page-5.jpg.asset.json";
-import img7 from "@/assets/bts-page-7.jpg.asset.json";
-import img9 from "@/assets/bts-page-9.jpg.asset.json";
-import img10 from "@/assets/bts-page-10.jpg.asset.json";
-import img12 from "@/assets/bts-page-12.jpg.asset.json";
-import img15 from "@/assets/bts-page-15.jpg.asset.json";
-import img19 from "@/assets/bts-page-19.jpg.asset.json";
-
 export const IMAGES = {
-  hero: hero1.url,
-  steel: img5.url,
-  spaceFrame: img7.url,
-  irrigation: img9.url,
-  bridge: img10.url,
-  smartCity: img12.url,
-  auditorium: img15.url,
-  cityscape: img19.url,
+  hero: "/images/bts-page-1.jpg",
+  steel: "/images/bts-page-5.jpg",
+  spaceFrame: "/images/bts-page-7.jpg",
+  irrigation: "/images/bts-page-9.jpg",
+  bridge: "/images/bts-page-10.jpg",
+  smartCity: "/images/bts-page-12.jpg",
+  auditorium: "/images/bts-page-15.jpg",
+  cityscape: "/images/bts-page-19.jpg",
 };
+
 
 export type ProjectCategory =
   | "Steel & Space Frames"
